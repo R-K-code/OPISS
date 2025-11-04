@@ -17,7 +17,7 @@ import plotly.express as px
 
 
 # Load only the base dataset
-df = pd.read_csv('athlete_events.csv')
+df = pd.read_csv('athlete_events_compressed.csv')
 
 # Load region data
 region_df = pd.read_csv('noc_regions.csv')
@@ -716,3 +716,4 @@ if user_menu == 'Medal Predictor':
         st.plotly_chart(fig)
     else:
         st.warning("Not enough historical data to predict medals.")
+
