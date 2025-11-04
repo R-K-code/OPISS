@@ -1,1 +1,11 @@
 wikipedia
+streamlit
+pandas
+tweet-preprocessor
+matplotlib
+seaborn
+plotly
+scikit-learn
+pycountry
+
+
